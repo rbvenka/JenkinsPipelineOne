@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Hello World'
+                echo 'Build'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Hello World'
+                echo 'Deploy'
             }
         }
         stage('Test') {
@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Release') {
             steps {
-                echo 'Hello World'
+                echo 'Release'
             }
         }
     }
